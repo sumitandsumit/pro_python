@@ -1,0 +1,12 @@
+
+--------------------------------------------------------------------------------------
+			Assignment: String
+--------------------------------------------------------------------------------------
+	
+Q1: For a given directory path (e.g. home/user/documents/report.pdf), print the file path and the file name.
+
+Q2: Query Params
+You have given an URL which has multiple query parameters
+e.g. https://www.example.com/products?category=electronics&sort=price&page=2&limit=10
+a. Extract all query params and store in dict
+b. Print all elements form the dict
