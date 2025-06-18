@@ -1,0 +1,33 @@
+
+--------------------------------------------------------------------------------------
+			Assignment: Exception Handling
+--------------------------------------------------------------------------------------
+	
+Q1: Build a menu-driven calculator that handles normal operations along with:
+a. Division by zero
+b. Invalid inputs (non-numeric)
+c. square root of negative numbers
+
+Q2: File Reader with Graceful Failure
+a. Ask user for a filename.
+b. Try to open and read the file.
+c. Handle errors like FileNotFoundError, PermissionError, and display appropriate messages.
+
+Q3: Manage a list of items with quantities
+Item properties: name, quantity, price (create a class)
+a. Add items to inventory
+b. Update stock
+c. Make sure that item quantities never drop below zero
+d. Cannot add negative prices for item
+
+Q4: Student Grade Validator - Write a program that:
+a. Takes a student’s name and marks for 5 subjects
+b. Converts marks to integers and calculates average
+c. Catches errors if inputs are invalid
+d. Raises exception if any mark is >100 or <0
+
+Q5: Login System
+a. Ask the user for a username and password
+b. Validate that both are not empty strings
+c. Raise ValueError if inputs are invalid
+
