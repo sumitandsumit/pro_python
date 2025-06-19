@@ -61,8 +61,17 @@ else:
 finally:
     print("This block will always execute.")
 
+
+def some_function():
+    try:
+        # Code that might raise an exception
+        pass
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
 # Catching the General Exception
 try:
-    some_function()  # Might raise any type of exception
+    some_function()
 except Exception as e:
     print(f"An error occurred: {e}")
