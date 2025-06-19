@@ -14,11 +14,11 @@ b. Try to open and read the file.
 c. Handle errors like FileNotFoundError, PermissionError, and display appropriate messages.
 
 Q3: Manage a list of items with quantities
-Item properties: name, quantity, price (create a class)
-a. Add items to inventory
-b. Update stock
-c. Make sure that item quantities never drop below zero
-d. Cannot add negative prices for item
+Item properties: name, quantity, price (create an Item class)
+a. Add items to inventory (create an Inventory class which will have data field - items as a list and add_items method)
+b. Update stock - price and quantity (add method in Item class)
+c. Make sure that item quantities never drop below zero (raise Custom Exception - create a new exception class and extent it to Exception)
+d. Cannot add negative or zero prices for item (raise ValueError)
 
 Q4: Student Grade Validator - Write a program that:
 a. Takes a student’s name and marks for 5 subjects
