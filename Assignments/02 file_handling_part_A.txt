@@ -1,0 +1,19 @@
+
+--------------------------------------------------------------------------------------
+			Assignment: File Handling - Part A
+--------------------------------------------------------------------------------------
+	
+Q1: Digital Diary App - Create a script where users can add entries to a personal diary and read previous ones.
+a. Let users choose between writing a new entry or reading existing ones.
+b. Save each entry with a timestamp into a text file (diary.txt).
+c. Handle the case where the file doesn’t exist yet.
+
+Q2: Directory Report Tool - Create a script that lists all files & directories in a given directory path along with their sizes.
+Input: path to a directory.
+    Note: Absolute path should be as follows -
+        for windows: C:\\Users\\UserName\\Documents
+        for linux/mac: /home/username/Documents
+    This function should also work on Relative path too.
+Output: file names and sizes in KB.
+Use os and os.path to navigate and retrieve file stats.
+Optional: sort files by name.
