@@ -1,0 +1,1 @@
+123456789 Hello, World! This is a byte string. You can write bytes here.
