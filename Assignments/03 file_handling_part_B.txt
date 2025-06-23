@@ -1,0 +1,22 @@
+
+--------------------------------------------------------------------------------------
+			Assignment: File Handling - Part B
+--------------------------------------------------------------------------------------
+	
+Q1: File Cleaner & Backup Tool - Clean up a messy data file and back it up.
+a. Open a file with inconsistent spacing or trailing blank lines.
+b. Clean the text (trim blank spaces, remove blank lines) and overwrite the original.
+	Hint:
+	for trim (removing extra spaces), use string methods - split and join
+	for blank line removal, use strip 
+c. Before modifying, create a backup copy of the original.
+	Hint:
+	use shutil package and its copy method
+May use readlines(), writelines(), w+ mode & file pointers like seek().
+
+Q2: Contact Book with Pickle
+Build a simple menu-driven contact manager that stores and loads data using pickle.
+- Each contact is a dictionary. e.g.: {"name": "Rahul", "phone": "1234567890"}.
+- Allow options: add contact (and save to file), view all contacts, search a contact case-insensitively.
+- Use pickle.dump() and pickle.load() to persist data.
+- Validate inputs and handle necessary exceptions.
