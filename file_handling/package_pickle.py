@@ -1,6 +1,9 @@
 import os
 import pickle
 
+
+print(f"Highest Protocol: {pickle.HIGHEST_PROTOCOL} (Python {pickle.format_version})")
+
 data = {"name": "MyName", "age": 25}
 
 # Pickling (serialization)
